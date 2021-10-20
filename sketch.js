@@ -137,47 +137,47 @@ function draw(){
 function mousePressed(){
 if (mode == 0 && mouseX<150 && mouseY>150) {
     mode = 1;
-  } else if (mode == 1 && mouseX<50 && mouseX<180) {
+  } else if (mode == 1 && mouseX<45 && mouseY>100) {
      mode = 2;
-  } else if (mode == 2 && mouseX<100 && mouseX<220) {
+  } else if (mode == 2 && mouseX<100 && mouseY<180) {
     mode = 3;
-  } else if (mode == 3 && mouseX>100 && mouseX<220) {
+  } else if (mode == 3 && mouseX>100 && mouseY>150) {
     mode = 4;
-  } else if (mode == 4 && mouseX>100 && mouseX<220) {
+  } else if (mode == 4 && mouseX>100 && mouseY>220) {
     mode = 5;
-  } else if (mode == 5 && mouseX>100 && mouseX<220) {
+  } else if (mode == 5 && mouseX>100 && mouseY>220) {
     mode = 6;
-  } else if (mode == 6 && mouseX>100 && mouseX<220) {
+  } else if (mode == 6 && mouseX>100 && mouseY>220) {
     mode = 7;
-  } else if (mode == 7 && mouseX>100 && mouseX<220) {
+  } else if (mode == 7 && mouseX>150 && mouseY>250) {
     mode = 8;
-  } else if (mode == 8 && mouseX>100 && mouseX<220) {
+  } else if (mode == 8 && mouseX>100 && mouseY>240) {
     mode = 9;
-  } else if (mode == 9 && mouseX>150 && mouseX<220) {
+  } else if (mode == 9 && mouseX>100 && mouseY>100) {
     mode = 10;
-  } else if (mode == 10 && mouseX>150 && mouseX<250) {
+  } else if (mode == 10 && mouseX>100 && mouseY>100) {
     mode = 11;
-  } else if (mode == 11 && mouseX>100 && mouseX<220) {
+  } else if (mode == 11 && mouseX>130 && mouseY>240) {
     mode = 12;
-  } else if (mode == 12 && mouseX>100 && mouseX<220) {
+  } else if (mode == 12 && mouseX>100 && mouseY>220) {
     mode = 13;
-  } else if (mode == 13 && mouseX>100 && mouseX<220) {
+  } else if (mode == 13 && mouseX>150 && mouseY<300) {
     mode = 14;
-  } else if (mode == 14 && mouseX>100 && mouseX<220) {
+  } else if (mode == 14 && mouseX>150 && mouseY<300) {
     mode = 15;
-  } else if (mode == 15 && mouseX>100 && mouseX<220) {
+  } else if (mode == 15 && mouseX>50 && mouseY>190) {
     mode = 16;
-  } else if (mode == 16 && mouseX>100 && mouseX<220) {
+  } else if (mode == 16 && mouseX>100 && mouseY>300) {
     mode = 17;
-  } else if (mode == 17 && mouseX>100 && mouseX<200) {
+  } else if (mode == 17 && mouseX>50 && mouseY>300) {
     mode = 18;
-  } else if (mode == 18 && mouseX>100 && mouseX<200) {
+  } else if (mode == 18 && mouseX>50 && mouseY>300) {
     mode = 19;
-  } else if (mode == 19 && mouseX>100 && mouseX<220) {
+  } else if (mode == 19 && mouseX>50 && mouseY>230) {
     mode = 20;
-  } else if (mode == 20 && mouseX>100 && mouseX<220) {
+  } else if (mode == 20 && mouseX>100 && mouseY<200) {
     mode = 21;
-  } else if (mode == 21 && mouseX>100 && mouseX<220) {
+  } else if (mode == 21 && mouseX>100 && mouseY<220) {
     mode = 22;
   }
 
